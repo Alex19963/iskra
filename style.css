@@ -1,0 +1,136 @@
+/*Обнуление всех стилей*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+  /*Подключение шрифтов*/
+  @font-face {
+    font-family: 'Font1';
+    src: url('font/DelaGothicOne_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Font2';
+    src: url('font/Matt_Trial-Regular-BF670897ed2b9ca.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Font3';
+    src: url('font/Matt_Trial-Black-BF670897ed2f663.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  a {
+    text-decoration: none; 
+    color: inherit; 
+    background: none; 
+    border: none; 
+    outline: none;
+  }
+
+  header {
+    width: 100%;
+    height: 750px;
+    background-image: url('image/bg1.png'), url('image/bg2.png');
+    background-position: 0% bottom, 100% top; 
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-color: #020C00;
+  }
+
+  .container {
+    width: 1400px;
+    margin: 0 auto;
+  }
+
+.menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 22px;
+}
+.menu .block{
+    padding: 10px; 
+    text-align: center; 
+}
+
+.block a{
+    font-family: "Dela Gothic One";
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin-right: 80px;
+    font-weight: normal;
+}
+
+.vopros{
+    width: 225px; 
+    height: 54px;
+    padding: 14px 47px 21px 47px;
+    background: linear-gradient(to top, #6BAE00, #009629);
+    border: 2.5px solid #50BF09;
+    border-radius: 50px;
+    font-family: Matt_Trial;
+    font-weight: bold;
+    color: #031100;
+    font-size: 17px;
+   
+}
+
+/*Блок с заголовком и фото*/
+.block_text_img{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.text h1{
+  font-family: "Dela Gothic One";
+  font-size: 68px;
+  letter-spacing: 4px;
+  color: #F7FF05;
+  font-weight: normal;
+}
+
+.text h5{
+  font-family: "Matt_Trial";
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+  margin-top: 35px;
+}
+
+.text button{
+  width: 340px;
+  height: 78px;
+  border-radius: 50px;
+  background: linear-gradient(to top, #08B2F0, #D5F100);
+  border: 2.5px solid #89AC00;
+  font-family: "Matt_Trial";
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-right: 34px;
+}
+
+.block_img img{
+  margin-top: -40px;
+  width: 550px;
+}
+
+.strelka {
+  display: block;
+  margin: 0 auto;
+}
